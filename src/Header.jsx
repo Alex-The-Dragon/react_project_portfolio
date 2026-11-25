@@ -1,3 +1,5 @@
+import { Link } from "wouter";
+
 function Header() {
     return(
     <header>
@@ -5,7 +7,7 @@ function Header() {
       <nav>
         <u1>
           <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
+          <li><Link to = "/about">About</Link></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Contact</a></li>
         </u1>
